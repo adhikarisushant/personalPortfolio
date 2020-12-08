@@ -4,6 +4,9 @@
 /* css variables */
 @import url('./partials/_variables.css');
 
+/* global */
+@import url('./partials/_global.css');
+
 /* navbar */
 .header_area .main-menu .navbar-brand {
     padding: 0 2rem 0 5rem;
@@ -33,4 +36,42 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+/* Banner Area */
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png)no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content :  "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+    
+}
+
+site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+site-main .site-banner .banner-image > img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+
+
 
